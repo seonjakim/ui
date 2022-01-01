@@ -1,0 +1,45 @@
+{
+  "name": "@bizomen/ui",
+  "version": "1.0.0",
+  "description": "UI library for Bizomen projects",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seonjakim/ui.git"
+  },
+  "author": "Bizomen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seonjakim/ui/issues"
+  },
+  "homepage": "https://github.com/seonjakim/ui#readme",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/react": "^6.4.9",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^17.0.38",
+    "@types/styled-components": "^5.1.19",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
