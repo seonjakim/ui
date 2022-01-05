@@ -4,6 +4,8 @@ export const lightTheme = {
   text: '#363537',
   toggleBorder: '#FFF',
   background: '#363537',
+  grey: '#d3d3d3',
+  borderRadius:'4px'
 }
 export const darkTheme = {
   main:'#F05454',
