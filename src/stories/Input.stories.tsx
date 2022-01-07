@@ -14,3 +14,9 @@ export const Common = Template.bind({})
 Common.args = {
   placeholder: 'test'
 }
+
+export const Clear = Template.bind({})
+
+Clear.args = {
+  type: 'search'
+}
