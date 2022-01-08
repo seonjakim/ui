@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {lightTheme} from '../src/style/GlobalStyle'
+import {lightTheme} from '../style/GlobalStyle'
 const ButtonStyleReset = styled.button`
   border: 0;
   padding: .8em;

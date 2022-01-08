@@ -1,6 +1,6 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Input, InputWithDelete } from '../index'
+import { Input } from '../index'
 
 export default {
   title: 'Example/Input',
